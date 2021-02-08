@@ -5,9 +5,27 @@ body {
     font-size: 18px;
     line-height: 1.5;
     color: #414141;
+    background-image: url(../assets/images/background.jpg);
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no;
 }
 
 a {
     text-decoration: none;
     color: #414141;
 }
+
+.heading {
+    font-size: 110px;
+    font-family: 'HK-Grotesk-Bold', sans-serif;
+    line-height: 1;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #fff;
+
+}
+
+
+
