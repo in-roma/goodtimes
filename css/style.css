@@ -1,7 +1,13 @@
 /* Main */
 
 body {
-    background-color: black;
-    color: white;
-    font-size: 240px;
+    font-family: 'HK-Grotesk-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #414141;
+}
+
+a {
+    text-decoration: none;
+    color: #414141;
 }
