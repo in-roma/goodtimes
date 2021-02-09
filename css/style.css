@@ -5,15 +5,20 @@ body {
     font-size: 18px;
     line-height: 1.5;
     color: #414141;
-    background-image: url(../assets/images/background.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.3)), url(../assets/images/background.jpg);
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     color: #414141;
+
 }
 
 .heading {
