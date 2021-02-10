@@ -1,19 +1,23 @@
 /* Root */
 
 :root {
+    --black: rgb(31, 31, 31);
     --orange: #ff3c15;
+    --orange-light: hsla(10, 100%, 54%, 0.2);
   }
 
-/* Main */
+/* Body */
+
 body {
     font-family: 'HK-Grotesk-Medium', sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    color: black;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.3)), url(../assets/images/background.jpg);
+    color: var(--black);
+    /* background-image: linear-gradient(to bottom, var(--orange-light), rgba(255, 255, 255, 0.4)), url(../assets/images/background.jpg); */
+    background-image: url(../assets/images/background.jpg);
     background-size: 100% auto;
     background-position: center top;
-    background-repeat: no;
+    background-repeat: no-repeat;
 }
 
 ul {
@@ -22,7 +26,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--black);
 
 }
 
@@ -39,15 +43,15 @@ a {
 .heading-orange {
     font-size: 120px;
     margin-bottom: 3rem;
-    color:#ff3c15;
-    -webkit-text-stroke-color: white;
+    color: var(--orange);
+    -webkit-text-stroke-color: var(--orange);
 }
 
 .button {
     display: inline-block;
     padding: 24px 72px;
     letter-spacing: 0.05em;
-    background-color: #FF3C15;
+    background-color: var(--orange);
     color: #fff;
     text-transform: uppercase;
     border: none;
@@ -64,6 +68,17 @@ a {
 }
 
 blockquote {
-    color: black;
+    color: var(--black);
     font-size: 36px;
-  }
+}
+
+.quote-signature {
+    display: inline-block;
+    line-height: 1;
+    padding: 24px 18px; 
+    border-radius: 100%;
+    border: solid 3px var(--orange);
+    text-transform: uppercase;
+    margin-top: 12px;
+    color: var(--black);    
+}
