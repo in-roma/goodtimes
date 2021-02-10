@@ -2,6 +2,7 @@
 
 :root {
     --black: rgb(31, 31, 31);
+    --grey: #979797;
     --orange: #ff3c15;
     --orange-light: hsla(10, 100%, 54%, 0.2);
   }
@@ -80,5 +81,22 @@ blockquote {
     border: solid 3px var(--orange);
     text-transform: uppercase;
     margin-top: 12px;
-    color: var(--black);    
+    color: var(--orange);    
+}
+
+
+.speaker-image {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.speaker-name,
+.speaker-title {
+  margin: 0;
+  line-height: 1.33;
+}
+
+.speaker-title {
+  color: var(--grey);
+  font-family: 'HK-Grotesk-Regular', sans-serif;
 }
