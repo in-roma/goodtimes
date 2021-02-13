@@ -1,3 +1,18 @@
+// Register window display animation
+let frontE1 = document.querySelector('.front');
+
+const registerButton = document.querySelector('.register-button');
+registerButton.addEventListener('click', (event) => {
+	event.preventDefault();
+	frontE1.classList.add('slide-up');
+});
+
+const buyButton = document.querySelector('.buy-button');
+buyButton.addEventListener('click', (event) => {
+	event.preventDefault();
+	frontE1.classList.remove('slide-up');
+});
+
 // Dynamic view navigation bar
 
 const header = document.querySelector('.header');
