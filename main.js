@@ -37,3 +37,19 @@ VanillaTilt.init(document.querySelectorAll('.image'), {
 inView('.fade')
 	.on('enter', (img) => img.classList.add('visible'))
 	.on('exit', (img) => img.classList.remove('visible'));
+
+// Smooth href navigation
+
+const anchors = document.querySelectorAll('a');
+
+anchors.forEach((anchor) => {
+	anchor.addEventListener('click', (event) => {
+		const href = anchor.getAttribute('href');
+		if (href.charAt(0) === '#') {
+			event.preventDefault();
+			document.querySelector(href).scrollIntoView({
+				behavior: 'smooth',
+			});
+		}
+	});
+});

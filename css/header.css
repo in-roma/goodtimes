@@ -4,13 +4,12 @@
 
 .nav-item {
     margin: 0 16px;
-
+    font-family: 'HK-Grotesk-Medium', sans-serif;
 }
 
 .nav-link {
     color: #fff;
     letter-spacing: 0.05em;
-
 }
 
 .header-desktop {
@@ -35,7 +34,7 @@
 
 .header-desktop {
 
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.99);
     padding: 20px;
     z-index: 4;
     box-shadow: 0 0 4px 0px rgba(65, 65, 65, 0.5);
