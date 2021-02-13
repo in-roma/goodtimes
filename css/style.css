@@ -48,6 +48,16 @@ a {
     -webkit-text-stroke-color: var(--orange);
 }
 
+.fade {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.visible {
+    opacity: 1;
+}
+
+
 
 /* Hero section */
 
@@ -226,5 +236,4 @@ footer {
     width: 131px;
     height: 40px;
     background-image: url(../assets/images/logo.svg);
-
 }
