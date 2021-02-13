@@ -13,6 +13,7 @@
 body {
     font-family: 'HK-Grotesk-Medium', sans-serif;
     font-size: 18px;
+    font-weight: 500;
     line-height: 1.5;
     color: var(--black);
     background-image: url(../assets/images/background.jpg);
@@ -23,6 +24,7 @@ body {
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
 a {
@@ -236,4 +238,46 @@ footer {
     width: 131px;
     height: 40px;
     background-image: url(../assets/images/logo.svg);
+}
+
+
+/* Responsive */
+
+@media(max-width: 900px) {
+    body {
+        font-size: 16px;
+        background-size: auto 120vh;
+
+    }
+    .heading {
+        font-size: 72px;
+        -webkit-text-stroke-width: 2px;
+    }
+    .button {
+        padding: 18px 32px;
+        font-size: 14px;
+    }
+    .heading-orange {
+        margin-bottom: 24px;
+    }
+    blockquote {
+        line-height: 1.2;
+    }
+    .schedule-day {
+        padding: 12px;
+    }
+
+}
+
+@media(max-width: 600px) {
+
+    .heading {
+        font-size: 48px;
+
+    }
+    .button {
+
+        font-size: 12px;
+    }
+
 }
