@@ -1,6 +1,9 @@
 /* Root */
 
 :root {
+
+    /* Colors */
+    --white: #fff;
     --black: rgb(31, 31, 31);
     --grey: #979797;
     --orange: #ff3c15;
@@ -23,23 +26,24 @@ body {
 }
 
 ul {
-    font-weight: 500;
+
     text-transform: uppercase;
     list-style: none;
     padding: 0;
 }
 
 a {
+    font-family: 'HK-Grotesk-Medium', sans-serif;
+    font-weight: 600;
     text-decoration: none;
     color: var(--black);
-
 }
 
 .heading {
-    color: #fff;
+    color: var(--white);
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-color: var(--white);
     font-family: 'HK-Grotesk-Bold', sans-serif;
     font-size: 110px;
     line-height: 1;
