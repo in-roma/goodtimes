@@ -1,4 +1,4 @@
-// Register window display animation
+// Register window: display animation
 let frontE1 = document.querySelector('.front');
 
 const registerButton = document.querySelector('.register-button');

@@ -10,7 +10,6 @@
     --orange-light: hsla(10, 100%, 54%, 0.2);
   }
 
-
 /* Main */
 
 body {
@@ -93,7 +92,6 @@ blockquote {
     margin-top: 24px;
 }
 
-
 /* Speakers section  */
 
 .speaker-image {
@@ -111,7 +109,6 @@ blockquote {
   color: var(--grey);
   font-family: 'HK-Grotesk-Regular', sans-serif;
 }
-
 
 /* Schedule section  */
 
@@ -155,7 +152,6 @@ blockquote {
     font-weight: 600;
     font-size: 18px;
 }
-
 
 /* Register section  */
 
@@ -218,7 +214,6 @@ button {
     border: 2px solid var(--orange);
     color: var(--orange);
 }
-
 
 /* Footer */
 
