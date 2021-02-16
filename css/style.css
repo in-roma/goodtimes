@@ -25,20 +25,6 @@ body {
     background-repeat: no-repeat;
 }
 
-ul {
-
-    text-transform: uppercase;
-    list-style: none;
-    padding: 0;
-}
-
-a {
-    font-family: 'HK-Grotesk-Medium', sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-    color: var(--black);
-}
-
 .heading {
     color: var(--white);
     -webkit-text-fill-color: transparent;
@@ -93,6 +79,7 @@ a {
 blockquote {
     color: var(--black);
     font-size: 36px;
+    margin: 0;
 }
 
 .quote-signature {
@@ -103,7 +90,7 @@ blockquote {
     border-radius: 100%;
     border: solid 3px var(--orange);
     text-transform: uppercase;
-    margin-top: 12px;
+    margin-top: 24px;
 }
 
 

@@ -13,7 +13,6 @@
   transition: transform 0.5s ease;
 }
 
-
 .header-desktop.visible {
   transform: translateY(0);
 }
@@ -33,7 +32,7 @@
 }
 
 .header-desktop .nav-link {
-  color: #414141;
+  color: var(--black);
 }
 
 .header-desktop .logo-svg {
@@ -43,7 +42,7 @@
 
 .header-desktop .logo-svg path,
 .header-desktop .logo-svg polygon {
-  fill: #414141;
+  fill:  var(--black);
 }
 
 /* Logo */
@@ -72,8 +71,9 @@
     letter-spacing: 0.05em;
 }
 
-ul {
 
+
+ul {
   text-transform: uppercase;
   list-style: none;
   padding: 0;
