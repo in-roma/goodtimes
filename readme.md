@@ -7,5 +7,5 @@ Creating an Event Webpage using BassCSS & Tachyons CSS . [Link to project](https
 
 ## Tech Stack
 
-**Client:** HTML / CSS (BassCSS & tachyons CSS) Vanilla js 
+**Client:** HTML / CSS (BassCSS & tachyons CSS) / Vanilla js 
   
